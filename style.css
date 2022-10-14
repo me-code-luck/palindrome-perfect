@@ -1,0 +1,54 @@
+*{
+    margin: 10px !important;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+
+}
+
+button{
+    display: block !important;
+    margin: auto !important;
+}
+
+
+main{
+  text-align: center;
+  min-width: 370px;
+   
+
+}
+
+body{
+    height: 100vh;
+    
+}
+.Answer{
+display: flex ;
+flex-wrap: wrap;
+align-content:space-around ;
+
+justify-content: center;
+
+}
+.Palindrome, .Perfect{
+   
+    display:inline-block ;
+    position: relative;
+}
+
+textarea{
+    resize: none !important;
+    
+
+}
+i{
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+}
+
+span{
+    font-weight: 600;
+   color: red;
+}
